@@ -1,7 +1,7 @@
 {
-  "name": "@alifd/scaffold-simple",
+  "name": "react-graphql-typescript",
   "version": "0.1.0",
-  "description": "使用 TypeScript，未使用任何 UI 库。",
+  "description": "基于Ice脚手架 React、TypeScript、Graphql、Antd项目开发模板",
   "dependencies": {
     "antd": "^4.3.5",
     "apollo-boost": "^0.4.9",
@@ -23,7 +23,7 @@
     "stylelint": "^13.0.0"
   },
   "scripts": {
-    "start": "icejs start --config build.config.js",
+    "start": "icejs start --config build.config.js --port 9099 --disable-open",
     "build": "icejs build --config build.config.js",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --cache --ext .js,.jsx ./",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba-fusion/materials/tree/master/scaffolds/scaffold-simple"
+    "url": "https://github.com/bestchu/react-graphql-typescript"
   },
   "ideMode": {
     "name": "ice-react"
@@ -43,6 +43,5 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "private": true,
-  "originTemplate": "@alifd/scaffold-simple"
+  "private": true
 }
